@@ -1,5 +1,5 @@
 {
-  "name": "better-quickdb",
+  "name": "rex.db",
   "version": "1.0.0",
   "description": "Better version of quick.db with much more features. Original author @TrueXPixels",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Snowflake107/better-quickdb.git"
+    "url": "git+https://github.com/Snowflake107/rex.db.git"
   },
   "keywords": [
     "database",
@@ -25,12 +25,13 @@
     "db",
     "quick.db",
     "better-quick.db",
-    "better-quickdb"
+    "better-quickdb",
+    "rex.db"
   ],
   "author": "Snowflake107",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Snowflake107/better-quickdb/issues"
+    "url": "https://github.com/Snowflake107/rex.db/issues"
   },
-  "homepage": "https://better-quickdb.netlify.app"
+  "homepage": "https://rexdb.netlify.app"
 }
