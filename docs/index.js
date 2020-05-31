@@ -82,7 +82,7 @@ db.deleteAll();
 sql.prepare("SELECT * FROM table WHERE something = (?)").get("someval");
 \`\`\`
 
-> **Wait, \`db.math\` types are: \`+\`, \`-\`, \`*\`, \`/`\ and \`%\`.**
+> **Wait, \`db.math\` types are: \`+\`, \`-\`, \`*\`, \`/\` and \`%\`.**
 
 ---
 
