@@ -31,15 +31,13 @@ module.exports = {
       if (typeof name !== "string") throw new Error("Invalid database name");
       db = new Database(name + ".sqlite");
       return db;
-  }
+  },
 
  /**
  * Package version. Community requested feature.
- * console.log(require('quick.db').version());
+ * console.log(require('quick.db').version);
  */
-  version: function() {
-      return (require("../package.json").version);
-  },
+  version: (require("../package.json").version),
   
  /**
  * This function fetches data from a key in the database. (alias: .get())
