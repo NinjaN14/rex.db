@@ -4,7 +4,7 @@
   "description": "Better version of quick.db with much more features. Original author @TrueXPixels",
   "main": "index.js",
   "dependencies": {
-    "better-sqlite3": "^6.0.1",
+    "better-sqlite3": "^7.0.1",
     "lodash": "4.17.15"
   },
   "scripts": {
