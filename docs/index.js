@@ -25,7 +25,7 @@ var markdown = `
     6. Run \`npm install better-quickdb\`
 
 **Linux**
-- `npm i better-quickdb`
+- \`npm i better-quickdb\`
 
 ***Note:** Windows users may need to do additional steps [listed here](https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md).*
 
