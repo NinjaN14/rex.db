@@ -35,9 +35,11 @@ module.exports = {
 
  /**
  * Package version. Community requested feature.
- * console.log(require('quick.db').version);
+ * console.log(require('quick.db').version());
  */
-  version: require("../package.json").version,
+  version: function() {
+      return (require("../package.json").version);
+  },
   
  /**
  * This function fetches data from a key in the database. (alias: .get())
