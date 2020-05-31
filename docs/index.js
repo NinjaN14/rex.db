@@ -4,7 +4,7 @@ var markdown = `
 *If you're having troubles installing, please follow [this troubleshooting guide](https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md).*
 
 **Windows**
-- \`npm i better-quickdb\`
+- \`npm i rex.db\`
 - Error?
     1. Install the **latest** of node 10 or node 12.
     2. Start an Admin PowerShell: Right-click the start icon, then pick \`Windows PowerShell (Admin)\`
@@ -24,10 +24,10 @@ var markdown = `
        python=python2.7
        \`\`\`
        (where \`%USERPROFILE%\` is your home directory).
-    6. Run \`npm install better-quickdb\`
+    6. Run \`npm install rex.db\`
 
 **Linux**
-- \`npm i better-quickdb\`
+- \`npm i rex.db\`
 
 ***Note:** Windows users may need to do additional steps [listed here](https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md).*
 
@@ -35,7 +35,7 @@ var markdown = `
 1. **Install:** XCode
 2. **Run:** \`npm i -g node-gyp\` in terminal
 3. **Run:** \`node-gyp --python /path/to/python2.7\` (skip this step if you didn't install python 3.x)
-4. **Run:** \`npm i better-quickdb\`
+4. **Run:** \`npm i rex.db\`
 
 ---
 
@@ -49,14 +49,14 @@ This \`init\` function takes \`name\` parameter which can be used to create cust
 - Default
 
 \`\`\`js
-const db = require("better-quickdb");
+const db = require("rex.db");
 db.init(); // creates json.sqlite
 \`\`\`
 
 - Custom
 
 \`\`\`js
-const db = require("better-quickdb");
+const db = require("rex.db");
 db.init("./mydb"); // creates mydb.sqlite
 \`\`\`
 
@@ -65,7 +65,7 @@ db.init("./mydb"); // creates mydb.sqlite
 # New Features
 
 \`\`\`js
-const db = require("better-quickdb");
+const db = require("rex.db");
 // init & sql, custom filename & path is possible
 const sql = db.init("./database"); // creates database.sqlite instead of json.sqlite
 
@@ -89,7 +89,7 @@ sql.prepare("SELECT * FROM table WHERE something = (?)").get("someval");
 # Quick Example
 
 \`\`\`js
-const db = require("better-quickdb"); // quick.db
+const db = require("rex.db"); // database
 let sql = db.init(); // sql
 
 db.set("user", { name: "john" });
