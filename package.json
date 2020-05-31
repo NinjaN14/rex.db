@@ -1,0 +1,36 @@
+{
+  "name": "better-quickdb",
+  "version": "1.0.0",
+  "description": "Better version of quick.db with much more features. Original author @TrueXPixels",
+  "main": "index.js",
+  "dependencies": {
+    "better-sqlite3": "^6.0.1",
+    "lodash": "4.17.15"
+  },
+  "scripts": {
+    "test": "node spec/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snowflake107/better-quickdb.git"
+  },
+  "keywords": [
+    "database",
+    "storing",
+    "values",
+    "easy",
+    "quick",
+    "sqlite",
+    "sqlite3",
+    "db",
+    "quick.db",
+    "better-quick.db",
+    "better-quickdb"
+  ],
+  "author": "Snowflake107",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snowflake107/better-quickdb/issues"
+  },
+  "homepage": "https://better-quickdb.netlify.app"
+}
