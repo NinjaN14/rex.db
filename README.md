@@ -1,13 +1,14 @@
-# better-quickdb
+# rex.db
 
 ---
 
-**better-quickdb** - updated version of **quick.db** with a lot more features.
+**rex.db** - updated version of **quick.db** with a lot more features.
 
 ---
 
 - **Persistent storage w/ no setup** *(Data doesn't disappear through restarts)*
 - Beginner Friendly
+- [Simple Documentation](https://rexdb.netlify.app)
 - Similar to quick.db
 - [Discord Support](https://discord.gg/uqB8kxh)
 - **Multiple tables support**
@@ -18,7 +19,7 @@
 # Examples
 
 ```js
-const db = require('better-quickdb');
+const db = require('rex.db');
 
 // init the database
 db.init();
@@ -58,7 +59,7 @@ db.deleteAll() // boolean
 ## Custom Database Name, Path
 
 ```js
-const db = require("better-quickdb");
+const db = require("rex.db");
 db.init("./database"); // creates database.sqlite in the given path.
 
 ```
@@ -82,7 +83,7 @@ db.math("key", "type", data);
 _Example:_
 
 ```js
-const db = require("better-quickdb");
+const db = require("rex.db");
 db.init();
 
 // add
@@ -109,7 +110,7 @@ db.math("math", "/", 2);
 ## Example
 
 ```js
-const db = require("better-quickdb");
+const db = require("rex.db");
 const sql = db.init();
 
 // Set using db
@@ -128,7 +129,7 @@ console.log(data);
 *If you're having troubles installing, please follow [this troubleshooting guide](https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md).*
 
 **Linux & Windows**
-- `npm i better-quickdb`
+- `npm i rex.db`
 
 ***Note:** Windows users may need to do additional steps [listed here](https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md).*
 
@@ -136,7 +137,7 @@ console.log(data);
 1. **Install:** XCode
 2. **Run:** `npm i -g node-gyp` in terminal
 3. **Run:** `node-gyp --python /path/to/python2.7` (skip this step if you didn't install python 3.x)
-4. **Run:** `npm i better-quickdb`
+4. **Run:** `npm i rex.db`
 
 ---
 
