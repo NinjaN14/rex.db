@@ -268,7 +268,9 @@ module.exports = {
     this.deleteAll = function() { 
       return arbitrate('deleteAll', {ops: {}}, this.tableName);
     }
-
+    this.table = function(tableName, options = {}) {
+      return new this(tableName, options={});
+    }
     
   }
   
